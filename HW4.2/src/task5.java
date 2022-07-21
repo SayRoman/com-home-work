@@ -1,7 +1,7 @@
 import java.util.Scanner;
 // Как сместить ряды в право на n "_" равное количеству рядов.
 // При спуске вниз на строку уменьшать пустое место на 1, что получить параллелограмм?
-public class task5 {
+public class Task5 {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
         System.out.print("Введите число рядов: ");

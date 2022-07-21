@@ -1,39 +1,58 @@
 import java.util.Scanner;
 
-public class task4 {
+public class Task4 {
     public static void main(String[] args) {
         System.out.print("Введите размер: ");
         Scanner sc = new Scanner(System.in);
-        int num = sc.nextInt();
+        int rows = sc.nextInt() - 1;
+//1-й вариант Ромб
+        for (int i = 0; i < rows; i++){
 
-        System.out.println();
-        System.out.print("Ромб\n");
-        int z = 1;
-        for (int i = 0; i <= num / 2 + 1; i++) {
-            int prob = (num - z) / 2;
-
-            for (int j = 0; j < prob; j++) {
+            //Левое пустое пространство
+            for (int j = rows; j > i; j--){
                 System.out.print(" ");
             }
-            for (int k = 0; k < z; k++) {
+
+            //Левая часть треугольника
+            for (int j1 = 0; j1 <= i; j1++){ //Здесь можно изменить счётчик или поставить равенство с внешним счётчиком что бы пирамидка была остроугольная
                 System.out.print("*");
             }
-            System.out.println();
 
-            z = z + 2;
+            //Правая часть треугольника
+            for (int j = 0; j < i; j++){
+                System.out.print("*");
+            }
+
+            //Правое пустое пространство
+            for (int j = rows; j > i; j--){
+                System.out.print(" ");
+            }
+
+            System.out.println();
         }
-        z = num - 2;
+        for (int i = rows; i >= 0; i--){ //Заменили всего одну строку и поменяли знак >= Что бы Ромб был острый
 
-        for (int i = num / 2; i > 0; i--) {
-            int prob = (num - z) / 2;
-            for (int j = 0; j < prob; j++) {
+            //Левое пустое пространство
+            for (int j = rows; j > i; j--){
                 System.out.print(" ");
             }
-            for (int k = 0; k < z; k++) {
+
+//            //Левая часть треугольника
+            for (int j1 = 0; j1 <= i; j1++){ //Здесь можно изменить счётчик или поставить равенство с внешним счётчиком что бы пирамидка была остроугольная
                 System.out.print("*");
             }
+
+            //Правая часть треугольника
+            for (int j = 0; j < i; j++){
+                System.out.print("*");
+            }
+
+            //Правое пустое пространство
+            for (int j = rows; j > i; j--){
+                System.out.print(" ");
+            }
+
             System.out.println();
-            z = z - 2;
         }
     }
 }
