@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5f00948a-6219-4fab-bc77-10871e5367e9" name="Default Changelist" comment="" />
+    <list default="true" id="06ffa6aa-c10f-49aa-8638-bf94a7658cc1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Pr3/Task1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pr3/Task2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pr3/Task3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pr3/Task4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pr4/Pr4_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pr4/Pr4_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pr4/Pr4_3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pr4/Pr4_4.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,82 +23,137 @@
       </list>
     </option>
   </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA 2020.2.2\plugins\maven\lib\maven3" />
-      </MavenGeneralSettings>
-    </option>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="2Cl5jetHGeSAewzmAE4IE1XMLHc" />
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2CaN8cZpjoKVOh1qc41ONna71zZ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="E:/Проект 2022" />
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Black" />
+    </key>
   </component>
-  <component name="RunManager">
-    <configuration name="Pr3_4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Pr3_4" />
+  <component name="RunManager" selected="Application.Pr4_2">
+    <configuration name="Mainlist" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Black.Mainlist" />
       <module name="HW5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Black.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Pr4_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Pr4.Pr4_2" />
+      <module name="HW5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Pr4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Pr4_3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Pr4.Pr4_3" />
+      <module name="HW5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Pr4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Pr4_4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Pr4.Pr4_4" />
+      <module name="HW5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Pr4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Pr3.Task4" />
+      <module name="HW5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Pr3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Pr3_4" />
+        <item itemvalue="Application.Pr4_2" />
+        <item itemvalue="Application.Pr4_4" />
+        <item itemvalue="Application.Pr4_3" />
+        <item itemvalue="Application.Task4" />
+        <item itemvalue="Application.Mainlist" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="5f00948a-6219-4fab-bc77-10871e5367e9" name="Default Changelist" comment="" />
-      <created>1659364469090</created>
+      <changelist id="06ffa6aa-c10f-49aa-8638-bf94a7658cc1" name="Changes" comment="" />
+      <created>1659036581063</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1659364469090</updated>
-      <workItem from="1659364471571" duration="3949000" />
-      <workItem from="1659540415946" duration="42000" />
+      <updated>1659036581063</updated>
     </task>
     <servers />
   </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
-  <component name="WindowStateProjectService">
-    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1659365614079">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1659365614079" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1659540457549">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1659540457549" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1659377219700">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1659377219700" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1659377219700">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1659377219700" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1659377219700">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1659377219700" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1659377219700">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1659377219700" />
-    <state x="342" y="140" key="new project wizard" timestamp="1659367869893">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="342" y="140" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1659367869893" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
+          <option name="timeStamp" value="4" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
