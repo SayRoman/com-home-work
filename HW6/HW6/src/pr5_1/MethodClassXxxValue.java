@@ -1,7 +1,7 @@
 package pr5_1;
 
 import java.util.Scanner;
-public class MethodClass {
+public class MethodClassXxxValue {
     Scanner sc = new Scanner(System.in);
     Integer x = sc.nextInt();
 

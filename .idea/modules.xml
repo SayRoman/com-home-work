@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/HW4.2/HW4.2.iml" filepath="$PROJECT_DIR$/HW4.2/HW4.2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HW5/HW5.iml" filepath="$PROJECT_DIR$/HW5/HW5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/com-home-work.iml" filepath="$PROJECT_DIR$/.idea/com-home-work.iml" />
+    </modules>
+  </component>
+</project>
