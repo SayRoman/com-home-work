@@ -1,4 +1,4 @@
-package HW7_2;
+package HW7_2_Inheritance.BlackList;
 
 public abstract class Payment {
 
@@ -11,5 +11,7 @@ public abstract class Payment {
     public void setTax(double tax) {
         this.tax = tax;
     }
+
+
 
 }
