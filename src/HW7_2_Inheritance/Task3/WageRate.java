@@ -4,10 +4,10 @@ public class WageRate extends Payment {
 
     public WageRate() {
 
-        if (super.getChildren() == false) {
-            super.setTax(25);
-        } else {
+        if (super.getChildren()) {
             super.setTax(20);
+        } else {
+            super.setTax(25);
         }
         super.setPaymentTypeName("Ставка");
 

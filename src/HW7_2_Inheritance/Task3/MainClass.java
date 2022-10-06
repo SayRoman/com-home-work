@@ -6,7 +6,7 @@ public class MainClass {
         Person employee1 = new Person();
         Payment payment1 = new WageRate();
         employee1.setFIO("Дмитриев Дмитрий Дмитриевич");
-        employee1.setChildren(false);
+        employee1.setChildren(true);
         payment1.setChildren(employee1.isChildren());
         employee1.setWorkingDays(30);
         employee1.setPayment(300);

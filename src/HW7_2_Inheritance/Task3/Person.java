@@ -29,9 +29,9 @@ public class Person {
     }
 
     public String getKids() {
-        if (children == true){
+        if (children){
             this.kids = "Да";}
-        if (children == false){
+        if (children ){
             this.kids = "Нет";}
         return kids;
     }
