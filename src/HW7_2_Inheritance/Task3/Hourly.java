@@ -1,0 +1,22 @@
+package HW7_2_Inheritance.Task3;
+
+public class Hourly extends Payment {
+
+    public Hourly(){
+        super.setPaymentTypeName("Почасовая");
+
+            super.setTax(20);
+
+    }
+
+    @Override
+    public double calculateSalary(double payment) {
+        return payment;
+    }
+
+    @Override
+    public double calculateFinalSalary(double payment) {
+        double totalTax = payment * getTax() / 100;
+        return payment - totalTax;
+    }
+}
